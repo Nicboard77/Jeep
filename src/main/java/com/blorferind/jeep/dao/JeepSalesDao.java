@@ -1,10 +1,10 @@
-package com.blorferind.jeep.service;
+package com.blorferind.jeep.dao;
 
 import java.util.List;
 import com.blorferind.jeep.entity.Jeep;
 import com.blorferind.jeep.entity.jeepModel;
 
-public interface JeepSalesService {
+public interface JeepSalesDao {
 
   List<Jeep> fetchJeeps(jeepModel model, String trim);
 
